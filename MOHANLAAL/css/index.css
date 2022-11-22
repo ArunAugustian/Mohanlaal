@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&family=Oswald:wght@200;300;600&family=Righteous&family=Teko&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav{
+    padding: 0px 10px;
+   
+  
+}
+.main_body{
+    background-image:url(/images/Mohanlalll.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+
+.logo_div .img_logo {
+    width: 150px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+  margin-left: 20px;
+    font-family: Kanit,sans-serif;
+    color: white;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: Kanit,sans-serif;
+    color: white;
+    font-size: 17px;
+} 
+
+
+.main_page{
+    
+    height: 80vh;
+}
+
+.title_search{
+  
+   width: 50%;
+   text-align: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+}
+.search-box button{
+
+    margin-top: 10px;
+}
+.title_search .title span{
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    color:azure;
+}
+.title_search .title  p{
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.About{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+}
+.left_About{
+    margin-right: 20px;
+}
+
+.img_About img{
+    width: 300px;
+}
+ .table1 tr td{
+   border-bottom: 1px solid gray;
+} 
+.table1 {
+    width: 300px;
+    margin-top: 10px;
+    /* border-bottom: 1px solid red; */
+}
+.img_About h6{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left_About .Details .table1 tr td {
+    padding: 1%;
+    font-family: 'Ubuntu',sans-serif ;
+}
+.right_About{
+   
+    height: 600px;
+    overflow: scroll;
+}
+.right_About h2{
+    text-align: center;
+}
+
+.Movies{
+ 
+    background-color: rgba(128, 128, 128, 0.116);
+}
+.Movies h3{
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.card_div{
+     display: flex;
+     margin-left: 100px;
+}
+.cardd{
+    height: 300px;
+    width: 200px;
+    border-radius: 3%;
+}
+.cardd img{
+    height: 300px;
+    width: 200px;
+    border-radius: 3%;
+}
+.iframe{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding: 4%;
+}
+.news a{
+    font-size: 26px;
+    color: blue; 
+    padding-left: 5px;
+}
+.news p{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.footer{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.966);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.icons i{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
